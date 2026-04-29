@@ -1,6 +1,5 @@
 services:
   - type: web
     name: mental-backend
-    runtime: java
     buildCommand: mvn clean install
     startCommand: java -jar target/spring-backend-0.0.1-SNAPSHOT.jar
